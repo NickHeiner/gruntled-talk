@@ -12,6 +12,7 @@ module.exports = (grunt) ->
                     'index.html'
                     'slides/*.md'
                     'slides/*.html'
+                    'styles/*.css'
                     'js/*.js'
                 ]
 
@@ -30,6 +31,10 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
+
+            sass:
+                files: ['styles/*.scss']
+                tasks: ['sass']
         
         connect:
 
@@ -57,6 +62,11 @@ module.exports = (grunt) ->
                 jshintrc: '.jshintrc'
 
             all: ['js/*.js']
+
+        sass:
+            dist:
+                files:
+                    'styles/styles.css': 'styles/styles.scss'
 
         copy:
 
@@ -105,6 +115,7 @@ module.exports = (grunt) ->
     grunt.registerTask 'server',
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
+            'sass'
             'connect:livereload'
             'watch'
         ]

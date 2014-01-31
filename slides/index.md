@@ -1,10 +1,9 @@
-
 # gruntled
 
-From the terminal, pop in:
+![grunt logo](images/grunt-logo.png)
 
-  ```yo reveal:slide "Slide Title"```
+angular.js-dc
 
-Available options:
+Feburary 2014
 
- ```--markdown --attributes --notes```
+[@nickheiner](https://twitter.com/nickheiner) and [@opower](https://twitter.com/Opower)
