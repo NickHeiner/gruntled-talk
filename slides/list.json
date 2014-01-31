@@ -6,5 +6,6 @@
     "how-do-i-use-grunt.md",
     "gruntfile.md",
     "gruntfile-2.md",
-    "multitask.md"
+    "multitask.md",
+    "chain-tasks-together.md"
 ]
