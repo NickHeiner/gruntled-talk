@@ -1,5 +1,3 @@
-# gruntled
-
 ![grunt logo](images/grunt-logo.png)
 
 angular.js-dc
