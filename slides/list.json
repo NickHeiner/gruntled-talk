@@ -8,5 +8,7 @@
     "gruntfile-2.md",
     "multitask.md",
     "chain-tasks-together.md",
-    "config-templating.md"
+    "config-templating.md",
+    "non-task-config.md",
+    "config-options.md"
 ]
