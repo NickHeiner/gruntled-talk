@@ -6,7 +6,7 @@ jshint:
         node: true
 
     grunt: 'Gruntfile.js', # accept the defaults as-is
-    
+
     test:
         options:           # extend the defaults
             force: true

@@ -10,5 +10,8 @@
     "chain-tasks-together.md",
     "config-templating.md",
     "non-task-config.md",
-    "config-options.md"
+    "config-options.md",
+    "pulling-in-packagejson.md",
+    "file-specific-config.md",
+    "more-file-specific-config.md"
 ]
