@@ -1,9 +1,5 @@
 ##  gruntfile
 
-```
-$ npm install --save-dev grunt-contrib-jshint
-```
-
 ```coffee
 module.exports = (grunt) ->
 
@@ -11,16 +7,28 @@ module.exports = (grunt) ->
 
     grunt.initConfig
         jshint:
+            options:
+                angular: true
+
             scripts:
-                options:
-                    angular: true
                 files: ['js/**/*.js']
+
+            test:
+                files: ['test/**/*.js']
 ```
 
 ```
-$ grunt jshint
+$ grunt jshint:scripts
 Running "jshint:scripts" (jshint) task
 >> 10 files lint free.
+
+Done, without errors.
+```
+
+```
+$ grunt jshint:test
+Running "jshint:test" (jshint) task
+>> 3 files lint free.
 
 Done, without errors.
 ```
