@@ -1,6 +1,7 @@
 [
     "index.md",
     "shameless-plug.md",
+    "part-1.md",
     "why-grunt.md",
     "what-can-grunt-do.md",
     "how-do-i-use-grunt.md",
@@ -13,5 +14,6 @@
     "config-options.md",
     "pulling-in-packagejson.md",
     "file-specific-config.md",
-    "more-file-specific-config.md"
+    "more-file-specific-config.md",
+    "part-2.md"
 ]
