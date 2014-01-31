@@ -1,4 +1,8 @@
 [
     "index.md",
-    "shameless-plug.md"
+    "shameless-plug.md",
+    "why-grunt.md",
+    "what-can-grunt-do.md",
+    "how-do-i-use-grunt.md",
+    "gruntfile.md"
 ]
