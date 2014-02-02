@@ -106,6 +106,10 @@ module.exports = (grunt) ->
                             slide
             grunt.file.write 'index.html', html
 
+    grunt.registerTask 'exp', ->
+        done = this.async()
+        setTimeout (-> done(false)), 2000
+
     grunt.registerTask 'test',
         '*Lint* javascript and coffee files.', [
             'coffeelint'

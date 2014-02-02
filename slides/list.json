@@ -24,6 +24,10 @@
         "multitasks.md",
         "multitask-config.md"
     ],
-    "async-task.md",
+    [
+        "async-task.md",
+        "async-dangerzone.md",
+        "async-dangerzone-2.md"
+    ],
     "using-option.md"
 ]
