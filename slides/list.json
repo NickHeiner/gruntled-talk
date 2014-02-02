@@ -23,5 +23,7 @@
     [
         "multitasks.md",
         "multitask-config.md"
-    ]
+    ],
+    "async-task.md",
+    "using-option.md"
 ]
