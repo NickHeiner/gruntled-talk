@@ -15,5 +15,13 @@
     "pulling-in-packagejson.md",
     "file-specific-config.md",
     "more-file-specific-config.md",
-    "part-2.md"
+    "part-2.md",
+    [
+        "register-a-task.md",
+        "task-config.md"
+    ],
+    [
+        "multitasks.md",
+        "multitask-config.md"
+    ]
 ]
