@@ -3,15 +3,16 @@
 ```coffee
 module.exports = (grunt) ->
 
-    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks 'grunt-contrib-jshint'
 
     grunt.initConfig
         jshint:
             options:
-                angular: true
+                global:
+                    angular: true
 
             scripts:
-                files: ['js/**/*.js']
+                files: ['scripts/**/*.js']
 
             test:
                 files: ['test/**/*.js']

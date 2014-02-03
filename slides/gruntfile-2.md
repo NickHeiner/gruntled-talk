@@ -7,19 +7,19 @@ $ npm install --save-dev grunt-contrib-jshint
 ```coffee
 module.exports = (grunt) ->
 
-    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks 'grunt-contrib-jshint'
 
     grunt.initConfig
         jshint:
-            scripts:
-                options:
+            options:
+                globals:
                     angular: true
-                files: ['js/**/*.js']
+            files: ['scripts/**/*.js']
 ```
 
-```
+```sh
 $ grunt jshint
-Running "jshint:scripts" (jshint) task
+Running "jshint:files" (jshint) task
 >> 10 files lint free.
 
 Done, without errors.
