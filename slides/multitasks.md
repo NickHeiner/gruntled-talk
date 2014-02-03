@@ -9,7 +9,7 @@ grunt.registerMultiTask(
 
     function() {                            // the task itself
 
-        var file = grunt.task.current.options();
+        var file = grunt.task.current.options().file;
 
         if (!grunt.file.exists(file)) {
             grunt.fail.fatal('Could not find ' + file);
