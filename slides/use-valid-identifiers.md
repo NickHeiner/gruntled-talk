@@ -15,13 +15,13 @@ Bad:
 
 Good:
 ```
-'deploy_static_assets': 
-  'dev_or_qa':
+deploy_static_assets:
+  ಠ_ಠ:
     options:
       bucket: 'dev.opower.com'
 
-'verify_static_assets': 
-  'dev_or_qa':
+verify_static_assets:
+  dev_or_qa:
     options:
-      bucket: '<%= deploy_static_assets.dev_or_qa.options.bucket %>'
+      bucket: '<%= deploy_static_assets.ಠ_ಠ.options.bucket %>'
 ```
