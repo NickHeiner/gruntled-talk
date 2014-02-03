@@ -1,7 +1,11 @@
 ##  npm test = grunt test
 
-package.json
+Gruntfile.js
+```
+grunt.registerTask('test', ['lint', 'unit', 'e2e']);
+```
 
+package.json
 ```
 "scripts": {
     "test": "grunt test"
