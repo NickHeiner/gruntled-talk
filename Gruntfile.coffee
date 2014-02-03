@@ -87,6 +87,10 @@ module.exports = (grunt) ->
                 }]
 
 
+        'listA': [1, 2, 3]
+        'listB': ['foo', 'bar', 'baz']
+        'does-grunt-flatten-config': ['<%= listA %>', '<%= listB %>']
+
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
 
@@ -136,3 +140,6 @@ module.exports = (grunt) ->
         'test'
         'server'
     ]
+
+    grunt.registerTask 'does-grunt-flatten-config', ->
+        console.log grunt.config('does-grunt-flatten-config')
