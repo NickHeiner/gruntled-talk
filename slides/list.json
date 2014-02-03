@@ -34,5 +34,6 @@
     "tasks-on-tasks-on-tasks.md",
     "part-3.md",
     "load-grunt-tasks.md",
-    "npm-test-grunt-test.md"
+    "npm-test-grunt-test.md",
+    "use-valid-identifiers.md"
 ]
