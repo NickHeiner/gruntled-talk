@@ -4,7 +4,7 @@
 var s3 = require('s3');
 var util = require('util');
 
-grunt.registerMultiTask('deploy-static-assets', function() {
+grunt.registerMultiTask('deploy_static_assets', function() {
 
     // tell grunt this may take a while
     var done = grunt.task.current.async();

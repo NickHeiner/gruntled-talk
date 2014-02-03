@@ -1,7 +1,7 @@
 ##  configuring from the CLI
 
 ```
-grunt.registerMultiTask('deploy-static-assets', function() {
+grunt.registerMultiTask('deploy_static_assets', function() {
 
     var done = grunt.task.current.async();
     var opts = grunt.task.current.options({
@@ -17,9 +17,11 @@ grunt.registerMultiTask('deploy-static-assets', function() {
 ```
 grunt.initConfig({
 
-    'deploy-static-assets': {
+    'deploy_static_assets': {
         dev: {
-            bucket: grunt.option('bucket')
+            options: {
+                bucket: grunt.option('bucket')
+            }
         }
     }
 
@@ -27,5 +29,5 @@ grunt.initConfig({
 ```
 
 ```
-$ grunt deploy-static-assets:dev --bucket "qa.opower.com"
+$ grunt deploy_static_assets:dev --bucket "qa.opower.com"
 ```
