@@ -1,7 +1,7 @@
 ##  Part 3
 
-Using grunt in your own projects
+* Using grunt in your own projects
 
-Building your own grunt tasks
+* Building your own grunt tasks
 
-> Best practices
+* 〉**Best practices**

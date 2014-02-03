@@ -1,6 +1,6 @@
 ##  what can grunt do?
 
-Grunt can do anything.
+[Grunt can do anything.](http://gruntjs.com/plugins)
 
 * Cross-compile (scss -> css, coffee -> js, jade -> html, etc)
 * Copy files
