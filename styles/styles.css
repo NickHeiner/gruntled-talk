@@ -2,3 +2,10 @@
   background-color: transparent;
   border: none;
   box-shadow: none; }
+
+.reveal .footer {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 55%;
+  z-index: 9001; }
