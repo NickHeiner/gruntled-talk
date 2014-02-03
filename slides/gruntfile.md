@@ -1,4 +1,4 @@
-##  gruntfile
+##  gruntfile.js
 
 ```js
 module.exports = function(grunt) {
@@ -7,3 +7,5 @@ module.exports = function(grunt) {
 
 };
 ```
+
+You can natively use .coffee as well.

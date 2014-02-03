@@ -1,4 +1,4 @@
-##  gruntfile
+##  gruntfile.js
 
 ```
 $ npm install --save-dev grunt-contrib-jshint
