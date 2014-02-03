@@ -2,7 +2,7 @@
 
 ```
 # Required to use grunt on your system
-# You only need to do this once
+# You only need to do this once - better than gulp!
 $ npm install -g grunt-cli
 
 # Add grunt to the project you're current in
