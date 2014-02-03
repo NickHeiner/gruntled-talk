@@ -33,5 +33,6 @@
     "using-option.md",
     "tasks-on-tasks-on-tasks.md",
     "part-3.md",
-    "load-grunt-tasks.md"
+    "load-grunt-tasks.md",
+    "npm-test-grunt-test.md"
 ]
