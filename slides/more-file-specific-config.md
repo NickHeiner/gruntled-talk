@@ -15,3 +15,5 @@ jshint: {
 
 }
 ```
+
+There are even more, but they are deprecated.

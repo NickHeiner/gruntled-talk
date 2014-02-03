@@ -3,11 +3,9 @@
 ```
 jshint: {
 
-    terse: 'single-file.js',
-
-    multipleFiles: ['file-a.js', 'file-b.js']
-
-    globbing: 'src/**/*.js',
+    globbing: {
+        src: ['src/**/*.js']
+    }
 
     srcDestPairs: {
         src: ['src/a.js', 'src/b.js'],
