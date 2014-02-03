@@ -13,6 +13,7 @@ grunt.registerMultiTask(
 
         if (!grunt.file.exists(file)) {
             grunt.fail.fatal('Could not find ' + file);
+            return;
         }
 
         grunt.log.ok(file + ' exists ;)')
