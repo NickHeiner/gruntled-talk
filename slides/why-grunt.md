@@ -10,4 +10,4 @@
 
 * No more IDE-specific build steps that lock devs into one editor
 
-![no more watchers](/images/watcher.png)
+![no more watchers](images/watcher.png)
